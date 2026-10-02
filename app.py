@@ -12,7 +12,7 @@ import sys
 import requests
 
 # Preencha com os dados da página "Chaves e Ponto de Extremidade" do seu recurso
-ENDPOINT = os.getenv("AZURE_VISION_ENDPOINT", "https://SEU-RECURSO.cognitiveservices.azure.com")
+ENDPOINT = os.getenv("AZURE_VISION_ENDPOINT", "https://visao-inova-rmm94630.cognitiveservices.azure.com/")
 KEY = os.getenv("AZURE_VISION_KEY", "COLE_SUA_CHAVE_AQUI")
 
 URL_API = f"{ENDPOINT.rstrip('/')}/vision/v3.2/describe"
