@@ -1,14 +1,3 @@
-"""
-Inova Trônica - Interface web do MVP de Visão Computacional (Azure)
-
-Rodar:
-    pip install flask requests
-    # PowerShell
-    $env:AZURE_VISION_ENDPOINT="https://SEU-RECURSO.cognitiveservices.azure.com/"
-    $env:AZURE_VISION_KEY="SUA_CHAVE"
-    python web_app.py
-Abrir no navegador: http://localhost:5000
-"""
 import base64
 import os
 
